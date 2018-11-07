@@ -1,10 +1,19 @@
 #include <SFML/Graphics.hpp>
+#include <memory>
+#include "ShapeAssist.h"
+#include "PVector.h"
+
+const int WIDTH = 600;
+const int HEIGHT = 600;
+
+
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-	sf::CircleShape shape(100.f);
-	shape.setFillColor(sf::Color::Green);
+	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "SFML works!");
+	std::unique_ptr<ShapeAssist> shape = std::make_unique<ShapeAssist>();
+
+
 
 	while (window.isOpen())
 	{
@@ -16,7 +25,6 @@ int main()
 		}
 
 		window.clear();
-		window.draw(shape);
 		window.display();
 	}
 
