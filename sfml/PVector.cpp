@@ -64,7 +64,7 @@ void PVector::limit(float amt)
 		mult(amt);
 	}
 }
-void PVector::display()
+void PVector::display() const
 {
 	std::cout << "x: " << x << " y: " << y << std::endl;
 }

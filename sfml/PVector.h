@@ -24,7 +24,7 @@ class PVector
 		void div(float n);
 		void set(float x, float y);
 		void normalize();
-		void display();
+		void display() const;
 		PVector get();
 		PVector* getp();
 

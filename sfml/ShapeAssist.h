@@ -40,7 +40,7 @@ class ShapeAssist
 		void SetLineEquation(float m, float c);
 		void SetLineEquation(float x1, float y1, float x2, float y2);
 		void SetCircleEquation(float x, float y, float raduis);
-
+		void SetCircleLocation(float x, float y);		
 
 
 		sf::CircleShape GetCircle(float x, float y, float raduis);

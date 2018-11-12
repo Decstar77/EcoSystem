@@ -121,6 +121,11 @@ void ShapeAssist::SetCircleEquation(float x, float y, float raduis)
 	c_y = y;
 	c_raduis = raduis;
 }
+void ShapeAssist::SetCircleLocation(float x, float y)
+{
+	c_x = x;
+	c_y = y;
+}
 
 
 

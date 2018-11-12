@@ -124,11 +124,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
     <ClCompile Include="app.cpp" />
+    <ClCompile Include="Human.cpp" />
     <ClCompile Include="PVector.cpp" />
     <ClCompile Include="ShapeAssist.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Human.h" />
     <ClInclude Include="PVector.h" />
     <ClInclude Include="ShapeAssist.h" />
   </ItemGroup>
