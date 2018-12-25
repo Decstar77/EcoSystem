@@ -28,10 +28,15 @@ class Actor
 		Actor(PVector location = PVector(0, 0), PVector velocity = PVector(0,0), PVector acceleration = PVector(0,0));
 		~Actor();
 
+		ShapeAssist* GetShape();
+
 		void SetShapeAssist(ShapeAssist* shape);
 		void SetLocal(PVector vec);
+		void SetLocal(float x, float y);
 		void SetVelo(PVector vec);
+		void SetVelo(float x, float y);
 		void SetAccel(PVector vec, float topSpeed);
+		void SetAccel(float x, float y, float topSpeed);
 		void SetMass(float mass);
 		void SetUsesPhysics(bool phy);
 		void ApplyForce(PVector force);
@@ -39,8 +44,6 @@ class Actor
 		void checkEdges(float width, float height);
 		virtual void draw();
 		virtual void update();
-
-
 
 };
 

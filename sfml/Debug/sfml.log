@@ -1,1 +1,35 @@
-﻿  sfml.vcxproj -> D:\Code++\sfml\Debug\sfml.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (sfml.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Actor.cpp
+d:\code\c++\code++2\ecosystem\sfml\actor.h(19): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(20): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(21): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(23): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(24): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(26): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.cpp(99): warning C4305: '*=': truncation from 'double' to 'float'
+d:\code\c++\code++2\ecosystem\sfml\actor.cpp(108): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  app.cpp
+d:\code\c++\code++2\ecosystem\sfml\actor.h(19): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(20): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(21): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(23): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(24): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(26): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\app.cpp(25): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\code\c++\code++2\ecosystem\sfml\app.cpp(38): warning C4305: 'argument': truncation from 'double' to 'float'
+  Human.cpp
+d:\code\c++\code++2\ecosystem\sfml\actor.h(19): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(20): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(21): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(23): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(24): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\actor.h(26): warning C4227: anachronism used: qualifiers on reference are ignored
+d:\code\c++\code++2\ecosystem\sfml\human.cpp(25): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+d:\code\c++\code++2\ecosystem\sfml\human.cpp(30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  PVector.cpp
+  ShapeAssist.cpp
+d:\code\c++\code++2\ecosystem\sfml\shapeassist.cpp(82): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+d:\code\c++\code++2\ecosystem\sfml\shapeassist.cpp(99): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+d:\code\c++\code++2\ecosystem\sfml\shapeassist.cpp(144): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+  Generating Code...
+  sfml.vcxproj -> D:\Code\C++\Code++2\EcoSystem\Debug\EcoSys.exe

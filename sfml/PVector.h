@@ -1,6 +1,8 @@
 #pragma once
 #include <math.h>
 #include <iostream>
+#include <random>
+#include <time.h>
 class PVector
 {
 	private:
@@ -15,8 +17,8 @@ class PVector
 		PVector();
 		~PVector();
 
-
-		float mag();
+		
+		float mag() const;
 		void add(PVector vec);
 		void sub(PVector vec);
 		void limit(float amt);
@@ -32,4 +34,5 @@ class PVector
 		static PVector add(PVector vec1, PVector vec2);
 		static PVector mult(PVector vec1, float n);
 		static PVector div(PVector vec1, float n);
+		static PVector randVec(float xMin, float xMax, float yMin, float yMax);
 };

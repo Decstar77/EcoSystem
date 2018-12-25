@@ -11,6 +11,10 @@ Actor::Actor(PVector location, PVector velocity, PVector acceleration)
 Actor::~Actor()
 {
 }
+ShapeAssist * Actor::GetShape()
+{
+	return shape;
+}
 void Actor::SetShapeAssist(ShapeAssist * shape)
 {
 	if (shape != nullptr && shape->GetClearStatus())
@@ -25,13 +29,26 @@ void Actor::SetLocal(PVector vec)
 {
 	local = vec;
 }
+void Actor::SetLocal(float x, float y)
+{
+	local = PVector(x, y);
+}
 void Actor::SetVelo(PVector vec)
 {
 	velo = vec;
 }
+void Actor::SetVelo(float x, float y)
+{
+	velo = PVector(x, y);
+}
 void Actor::SetAccel(PVector vec, float topSpeed)
 {
 	accel = vec;
+	this->_topSpeed = topSpeed;
+}
+void Actor::SetAccel(float x, float y, float topSpeed)
+{
+	accel = PVector(x, y);
 	this->_topSpeed = topSpeed;
 }
 void Actor::SetMass(float mass)
@@ -54,14 +71,14 @@ void Actor::checkEdges(float width, float height)
 {
 	if (_usesPhysics)
 	{
-		if (local.x > width - 10) {
+		if (local.x > width - 10 && velo.x > 0) {
 			velo.x *= -1;
 		}
 		else if (local.x < 10) {
 			velo.x *= -1;
 		}
 
-		if (local.y > height - 10) {
+		if (local.y > height - 10 && velo.y > 0) {
 			velo.y *= -1;
 		}
 		else if (local.y < 10) {

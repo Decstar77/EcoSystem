@@ -1,6 +1,6 @@
 #pragma once
+#include <cmath>
 #include "Actor.h"
-
 class Human : public Actor
 {
 	private: 

@@ -21,5 +21,11 @@ void Human::update()
 }
 void Human::draw()
 {
-	Actor::draw();
+	ShapeAssist* shape = Actor::GetShape();
+	if (shape == nullptr & shape->GetClearStatus() == false)
+	{
+		std::cout << "Please set shade assist" << std::endl;
+		return;
+	}
+	shape->DrawCircle(location.x, location.y, (1.2)*mass);
 }

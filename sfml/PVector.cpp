@@ -21,7 +21,7 @@ PVector::~PVector()
 {
 }
 
-float PVector::mag()
+float PVector::mag() const 
 {
 	return (sqrt(x*x + y * y));
 }
@@ -97,4 +97,11 @@ PVector PVector::div(PVector vec1, float n)
 	vec1.x /= n;
 	vec1.y /= n;
 	return vec1;
+}
+PVector PVector::randVec(float xMin, float xMax, float yMin, float yMax)
+{
+	
+	float x = ((float(rand()) / float(RAND_MAX)) * (xMax - xMin)) + xMin;
+	float y = ((float(rand()) / float(RAND_MAX)) * (yMax - yMin)) + yMin;
+	return PVector();
 }

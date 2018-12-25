@@ -1,14 +1,1 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (sfml.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Human.cpp
-d:\code++\ecosystem\sfml\actor.h(19): warning C4227: anachronism used: qualifiers on reference are ignored
-d:\code++\ecosystem\sfml\actor.h(20): warning C4227: anachronism used: qualifiers on reference are ignored
-d:\code++\ecosystem\sfml\actor.h(21): warning C4227: anachronism used: qualifiers on reference are ignored
-d:\code++\ecosystem\sfml\actor.h(23): warning C4227: anachronism used: qualifiers on reference are ignored
-d:\code++\ecosystem\sfml\actor.h(24): warning C4227: anachronism used: qualifiers on reference are ignored
-d:\code++\ecosystem\sfml\actor.h(26): warning C4227: anachronism used: qualifiers on reference are ignored
-  Generating code
-  0 of 64 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  sfml.vcxproj -> D:\Code++\EcoSystem\Release\EcoSys.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets(46,5): error MSB8036: The Windows SDK version 10.0.17134.0 was not found. Install the required version of Windows SDK or change the SDK version in the project property pages or by right-clicking the solution and selecting "Retarget solution".
